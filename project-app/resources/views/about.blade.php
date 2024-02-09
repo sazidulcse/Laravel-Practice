@@ -5,16 +5,15 @@ Student: Satkhira Polytechnic Institute
 <br>
 Depertment: Computer Science & Engineering
 <br>
-Roll: 435372
 
-
-
+@foreach( $roll as $num )
+Roll:{{$num}}
+@endforeach
 </address>
 
 <br>
 <br>
-<a href="{{url('/')}}">Home</a>
-<br>
+<a href="{{url('/')}}" >Home</a>
+<a href="{{url('/info')}}">contact</a>
+
 <a href="{{url('/about')}}">About</a>
-<br>
-<a href="{{url('/contact')}}">Contact</a>

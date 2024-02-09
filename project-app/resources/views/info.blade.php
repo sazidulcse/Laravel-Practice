@@ -1,13 +1,14 @@
 <address>
 Location: Satkhira,Khulna,Bangladesh <br>
 Email: sazidulrahman.dcse@gamil.com <br>
-Mobile: 01708-332526
+Mobile: 
 
 </address>
 <br>
 <br>
 <a href="{{url('/')}}">Home</a>
 <br>
-<a href="{{url('/about')}}">About</a>
+<a href="{{url('/info')}}">contact</a>
 <br>
-<a href="{{url('/contact')}}">Contact</a>
+
+<a href="{{url('/about')}}">About</a>

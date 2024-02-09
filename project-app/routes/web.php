@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\Andro;
 use App\Http\Controllers\DemoCon;
+use App\Http\Controllers\sazid;
 use App\Http\Controllers\SiteCon;
 use App\Http\Controllers\SiteController;
 use App\Http\Controllers\TestCon;
@@ -16,14 +17,20 @@ use Illuminate\Support\Facades\Route;
 // Route::get('/about',[SiteController::class,'About']);
 
 
+Route::get('/',[sazid::class,'home']);
 
 
-Route::get('/',function(){
-    return view('home');
 
-});
+Route::view('/info','info');
+
+
+
 Route::get('/about',function(){
-    return view('about');
+
+    
+    
+    $items = array('java boo','bangla book','English book');
+    return view('about',['roll'=>$items]);
 
 });
 
