@@ -1,3 +1,10 @@
+<body>
+<style>
+body{
+    background-color: orange;
+}
+
+</style>
 
 <br>
 <br>
@@ -10,4 +17,6 @@
 <br>
 <a href="{{url('/about')}}">About</a>
 <br>
-<a href="{{url('/contact')}}">Contact</a>
+<a href="{{url('/contact')}}">Contact</a> 
+</body>
+
